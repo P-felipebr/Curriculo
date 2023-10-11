@@ -1,0 +1,88 @@
+.experiencia{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.experiencia-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    gap: 100px;
+}
+
+.experiencia h1{
+    font-size: 8rem;
+    color: rgb(152, 152, 152);
+    word-break: break-all;
+}
+
+.experiencia-informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.experiencia-projeto{
+    padding-right: 150px;
+}
+
+.experiencia-projeto p {
+    font-size: 1.5rem;
+}
+
+.experiencia-projeto span{
+    font-weight: bold;
+}
+
+.projeto{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 4px;
+    position: relative;
+    z-index: -1;
+}
+
+.projeto::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829,#67dd0a);
+    position: absolute;
+    top: 21px;
+    left: -4px;
+}
+
+.projeto span{
+    position: absolute;
+    margin-left: -60px;
+
+}
+
+.projeto ul{    
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.projeto li{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.projeto-stack{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.projeto-stack p{
+    font-size: 0.9rem;
+}

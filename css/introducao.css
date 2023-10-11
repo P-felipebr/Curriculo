@@ -1,0 +1,44 @@
+.introducao{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.introducao section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    gap: 100px;
+    
+}
+
+.introducao img{
+    width: 350px;
+    border-radius: 50%;
+    
+}
+
+.introducao h1{ 
+    font-size: 4.5rem;
+}
+
+.introducao h1::before{ 
+    content: "";
+    background-color: #67dd0a;
+    position: absolute;
+    padding: 25px 25px;
+    z-index: -1;
+    margin-left: -30px;
+    margin-top: 15px;
+    
+}
+
+.introducao-informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.introducao p{
+    font-size: 1.1rem;
+}

@@ -1,0 +1,35 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    transition: .5s;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nome {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight:initial;
+}
+

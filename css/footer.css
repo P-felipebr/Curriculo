@@ -1,0 +1,48 @@
+footer{
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer::before{
+    content: "";
+    display: block;
+    padding: 25px 25px;
+    left: 80px;
+    margin-top: -30px;
+    background-color: #67dd0a;
+    position: absolute;
+
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    padding-top: 150px;
+}
+
+.footer-texto{
+    padding-right: 150px;
+}
+
+.footer-texto p {
+    font-size: 1.2rem;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contatos a{
+    text-decoration: none;
+    color: white;
+}
+
+.direitos-reservado{
+    color: gray;
+}

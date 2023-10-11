@@ -1,0 +1,52 @@
+.formacao{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(17, 17, 17);
+}
+
+.formacao-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    gap: 100px;
+}
+
+.formacao h1{
+    font-size: 8rem;
+    word-break: break-all;
+}
+
+.formacao-informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.formacao-recente{
+    padding-right: 150px;
+}
+
+.formacao-recente p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.formacao-recente span{
+    font-weight: bold;
+    color: white;
+}
+
+.graduacao{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: gray;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.graduacao h4{
+    color: white;
+}

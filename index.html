@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>Prova Flavio</title>
+</head>
+<body>
+
+    <header>
+         <nav id="nav">
+
+            <div>
+               <a id="logo" href="#introducao"><h1 class="nome">Pedro Felipe</h1></a> 
+            </div>
+
+            <div>
+                <ul>
+                    <li> <a id="exp" href="#experiencia">Experiência</a> </li>
+                    <li> <a id="frmc" href="#formacao">Formação</a> </li>
+                    <li> <a id="ctt" href="#contato">Contato</a> </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main id="introducao" class="introducao">
+        <section>
+            
+            <div>
+                <img src="./img/eu.jpg" alt="">
+            </div>
+
+            <div class="introducao-informacoes">
+
+                <h1>Desenvolvedor Full Stack</h1>
+                <p>Localizado no Recife <i class="fa-solid fa-umbrella-beach"></i> </p>
+
+            </div>
+
+        </section>
+    </main>
+
+    <section class="experiencia" id="experiencia">
+
+        <div class="experiencia-grid">
+
+            <div>
+
+                <h1>EXPERIÊNCIA</h1>
+
+            </div>
+
+            <div class="experiencia-informacoes">
+
+                <div class="experiencia-projeto">
+
+                    <p>Já desenvolvi um pequeno projeto de KidsCode na parte do backend criando mini jogos em <span>JavaScript</span>. E junto ao meu squad fizemos uma releitura da rede social Orkut com <span>React</span> </p>
+
+                </div>
+
+                <div class="projeto">
+
+                    
+                    
+                    <div class="projeto-stack">
+                        <span>2023</span>
+                        <h4>KidsCode</h4>
+                        <p>No Projeto eu trabalhei no desenvolvimendo de dois jogos completo com JavaScript e a frameWork Canvas, tambem usando um pouco de HTML e CSS</p>
+
+                    </div>
+
+                    <div class="projeto-stack">
+
+                        <h4>Desenvolvedor Júnior</h4>
+
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="formacao" id="formacao">
+
+        <div class="formacao-grid">
+
+            <div>
+
+                <h1>FORMAÇÃO</h1>
+
+            </div>
+
+            <div class="formacao-informacoes">
+
+                <div class="formacao-recente">
+
+                    <p>Minha mais recente experiencia academica foi um <span>curso profissionalizante</span> que fiz pelo Intituto Proa em parceria com o senac de <span>Desevnolvedor Web Java</span> . Alem disso mantenho sempre me atualizando com cursos intensivos onlne</p>
+
+                </div>
+
+                <div class="graduacao">
+
+                    <div>
+                        <p>GRADUAÇÃO</p>
+                        <h4>Análise e Desenvolvimento de Sistema (3/5)</h4>
+                    </div>
+
+                    <div>
+                        <p>UNIT</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <footer id="contato">
+
+        <div class="grid-footer">
+
+
+            <div class="footer-texto">
+                <p>Estou disponivel para novos projetos no momento. Entre em contato comigo e marcamos uma conversa</p>
+            </div>
+
+            <div class="contatos">
+                <h1>pedrofelipemsilva@gmail.com</h1>
+                <h1>+55 (81) 98767-1121</h1>
+                <h1><a target="_blank" href="https://www.linkedin.com/in/pedro-felipe-7116351a8">Linkedin</a></h1>
+            </div>
+
+            <div class="direitos-reservado">
+                <p>Copyright ©️ 2023 • Alguns Direitos reservado • Pedro Felipe </p>
+            </div>
+
+        </div>
+    </footer>
+
+    
+    <script>
+        var nav = document.getElementById('nav');
+        var logo = document.getElementById('logo');
+        var experiencia = document.getElementById('exp');
+        var formacao = document.getElementById('frmc');
+        var contato = document.getElementById('ctt');
+
+        window.addEventListener("scroll", function(event){
+            if(window.pageYOffset>10){
+                nav.style.background = "#000000";
+                logo.style.color = "#ffffff";
+                experiencia.style.color = "#ffffff";
+                formacao.style.color = "#ffffff";
+                contato.style.color = "#ffffff";
+            }
+            else{
+                nav.style.background = "transparent";
+                logo.style.color = "#000000";
+                experiencia.style.color = "#000000";
+                formacao.style.color = "#000000";
+                contato.style.color = "#000000";
+            }
+        })
+    </script>
+
+
+</body>
+</html>
